@@ -1,0 +1,4 @@
+# format: DFG-IO-Name, ADG-IO-Index, DFG-IO-Latency
+input_0, 5, 0, input5
+input_1, 2, 2, input11
+output_2, 2, 7, output14

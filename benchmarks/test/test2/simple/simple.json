@@ -1,0 +1,100 @@
+{
+  "name": "G",
+  "directed": true,
+  "strict": false,
+  "_subgraph_cnt": 0,
+  "objects": [
+    {
+      "_gvid": 0,
+      "name": "mul0",
+      "label": "\\N",
+      "opcode": "mul"
+    },
+    {
+      "_gvid": 1,
+      "name": "const1",
+      "label": "\\N",
+      "opcode": "const"
+    },
+    {
+      "_gvid": 2,
+      "name": "add2",
+      "label": "\\N",
+      "opcode": "add"
+    },
+    {
+      "_gvid": 3,
+      "name": "output3",
+      "label": "\\N",
+      "opcode": "output"
+    },
+    {
+      "_gvid": 4,
+      "name": "add4",
+      "label": "\\N",
+      "opcode": "add"
+    },
+    {
+      "_gvid": 5,
+      "name": "const5",
+      "label": "\\N",
+      "opcode": "const"
+    },
+    {
+      "_gvid": 6,
+      "name": "input6",
+      "label": "\\N",
+      "opcode": "input"
+    },
+    {
+      "_gvid": 7,
+      "name": "input7",
+      "label": "\\N",
+      "opcode": "input"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 0,
+      "head": 2,
+      "operand": "0"
+    },
+    {
+      "_gvid": 1,
+      "tail": 1,
+      "head": 0,
+      "operand": "1"
+    },
+    {
+      "_gvid": 2,
+      "tail": 2,
+      "head": 3,
+      "operand": "0"
+    },
+    {
+      "_gvid": 3,
+      "tail": 4,
+      "head": 0,
+      "operand": "0"
+    },
+    {
+      "_gvid": 4,
+      "tail": 5,
+      "head": 4,
+      "operand": "1"
+    },
+    {
+      "_gvid": 5,
+      "tail": 6,
+      "head": 4,
+      "operand": "0"
+    },
+    {
+      "_gvid": 6,
+      "tail": 7,
+      "head": 2,
+      "operand": "1"
+    }
+  ]
+}

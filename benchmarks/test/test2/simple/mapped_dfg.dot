@@ -1,0 +1,13 @@
+Digraph G {
+"input6"[label = "\N\nlat=0"];
+"input7"[label = "\N\nlat=0"];
+"output3"[label = "\N\nlat=3"];
+"add2"->"output3"
+"mul0"[label = "\N\nlat=2"];
+"add4"->"mul0";
+"add2"[label = "\N\nlat=3"];
+"mul0"->"add2";
+"input7"->"add2";
+"add4"[label = "\N\nlat=1"];
+"input6"->"add4";
+}

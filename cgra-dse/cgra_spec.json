@@ -1,0 +1,50 @@
+{
+    "num_row": 4,
+    "num_colum": 11,
+    "num_track": 2,
+    "max_delay": 4,
+    "num_output_ib": 2,
+    "num_input_ob": 2,
+    "num_input_ib": 2,
+    "num_output_ob": 1,
+    "cfg_addr_width": 12,
+    "cfg_blk_offset": 2,
+    "connect_flexibility": {
+        "num_otrack_per_opin": 4,
+        "num_itrack_per_ipin": 2,
+        "num_ipin_per_opin": 4
+    },
+    "operations": [
+        "PASS",
+        "ADD",
+        "SUB",
+        "MUL",
+        "AND",
+        "OR",
+        "XOR",
+        "SHL",
+        "LSHR",
+        "ASHR",
+        "EQ",
+        "NE",
+        "LT",
+        "LE"
+    ],
+    "track_reged_mode": 1,
+    "num_rf_reg": 1,
+    "data_width": 32,
+    "cfg_data_width": 32,
+    "gpe_in_from_dir": [
+        4,
+        5,
+        7,
+        6
+    ],
+    "gpe_out_to_dir": [
+        4,
+        5,
+        7,
+        6
+    ],
+    "diag_iopin_connect": true
+}

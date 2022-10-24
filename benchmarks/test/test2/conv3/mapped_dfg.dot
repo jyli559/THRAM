@@ -1,0 +1,34 @@
+Digraph G {
+"input14"[label = "\N\nlat=0"];
+"output21"[label = "\N\nlat=6"];
+"add12"->"output21"
+"output22"[label = "\N\nlat=4"];
+"add9"->"output22"
+"add1"[label = "\N\nlat=2"];
+"add3"->"add1";
+"add2"[label = "\N\nlat=3"];
+"add1"->"add2";
+"add3"[label = "\N\nlat=1"];
+"input14"->"add3";
+"add4"[label = "\N\nlat=2"];
+"add3"->"add4";
+"add5"[label = "\N\nlat=3"];
+"add4"->"add5";
+"add6"[label = "\N\nlat=4"];
+"add5"->"add6";
+"add2"->"add6";
+"add7"[label = "\N\nlat=2"];
+"add3"->"add7";
+"add8"[label = "\N\nlat=3"];
+"add7"->"add8";
+"add9"[label = "\N\nlat=4"];
+"add8"->"add9";
+"add10"[label = "\N\nlat=5"];
+"add6"->"add10";
+"add11"->"add10";
+"add11"[label = "\N\nlat=2"];
+"add3"->"add11";
+"add12"[label = "\N\nlat=6"];
+"add10"->"add12";
+"add11"->"add12";
+}

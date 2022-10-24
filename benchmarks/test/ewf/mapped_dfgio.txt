@@ -1,0 +1,10 @@
+# format: IOPort-ID, ADG-IO-Index, DFG-IO-Latency, DFG-IO-Name
+input_0, 32, 0, IN_40
+input_1, 33, 0, IN_41
+input_2, 34, 0, IN_42
+input_3, 35, 0, IN_43
+output_4, 13, 10, OUT_35
+output_5, 19, 13, OUT_36
+output_6, 1, 14, OUT_37
+output_7, 3, 16, OUT_38
+output_8, 7, 15, OUT_39
