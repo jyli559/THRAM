@@ -1,4 +1,4 @@
-TRAM Framework
+THRAM Framework
 =======================
 
 Template-based Reconfigurable Architecture Modeling Framework, including:
