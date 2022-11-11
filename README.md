@@ -33,7 +33,7 @@ Using the script dse.py
 ```sh
 python3 dse.py
 ```
-Automatic DSE flow including modeling and compiling , change the benchmarks as you need. Or implement the process step by step.
+Automatic DSE flow including benchmark analyzing, modeling and compiling , change the benchmarks as you need. Or implement the process step by step.
 
 ### CGRA-MG
 
