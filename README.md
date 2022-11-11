@@ -27,14 +27,6 @@ Template-based Reconfigurable Architecture Modeling Framework, including:
 
 
 
-
-### CGRA-DSE
-Using the script dse.py
-```sh
-python3 dse.py
-```
-Automatic DSE flow including benchmark analyzing, modeling and compiling , change the benchmarks as you need. Or implement the process step by step.
-
 ### CGRA-MG
 
 #### Build and run
@@ -72,5 +64,10 @@ Using the script run.sh
 Change the benchmark file path as you need.
 The generated result files are in the same directory as the benchmark.
 
-
+### CGRA-DSE
+Using the script dse.py
+```python
+python3 dse.py
+```
+Automatic DSE flow including benchmark analyzing, modeling and compiling , change the benchmarks as you need. Or implement the process step by step.
 

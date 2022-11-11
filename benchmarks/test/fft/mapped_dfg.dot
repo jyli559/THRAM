@@ -8,7 +8,7 @@ Digraph G {
 "N6"[label = "\N\nlat=0"];
 "N7"[label = "\N\nlat=0"];
 "N8"[label = "\N\nlat=0"];
-"N29"[label = "\N\nlat=3"];
+"N29"[label = "\N\nlat=4"];
 "N21"->"N29"[label = "lat=0"];
 "N30"[label = "\N\nlat=3"];
 "N25"->"N30"[label = "lat=0"];
@@ -27,9 +27,9 @@ Digraph G {
 "N9"[label = "\N\nlat=1"];
 "N4"->"N9"[label = "lat=0"];
 "N8"->"N9"[label = "lat=0"];
-"N10"[label = "\N\nlat=1"];
+"N10"[label = "\N\nlat=2"];
 "N5"->"N10"[label = "lat=0"];
-"N8"->"N10"[label = "lat=0"];
+"N8"->"N10"[label = "lat=1"];
 "N11"[label = "\N\nlat=2"];
 "N6"->"N11"[label = "lat=0"];
 "N8"->"N11"[label = "lat=1"];
@@ -40,13 +40,13 @@ Digraph G {
 "N4"->"N13"[label = "lat=0"];
 "N8"->"N13"[label = "lat=0"];
 "N14"[label = "\N\nlat=2"];
-"N5"->"N14"[label = "lat=1"];
+"N5"->"N14"[label = "lat=0"];
 "N8"->"N14"[label = "lat=1"];
 "N15"[label = "\N\nlat=2"];
 "N6"->"N15"[label = "lat=1"];
 "N8"->"N15"[label = "lat=1"];
 "N16"[label = "\N\nlat=2"];
-"N7"->"N16"[label = "lat=0"];
+"N7"->"N16"[label = "lat=1"];
 "N8"->"N16"[label = "lat=1"];
 "N17"[label = "\N\nlat=2"];
 "N9"->"N17"[label = "lat=0"];
@@ -60,9 +60,9 @@ Digraph G {
 "N20"[label = "\N\nlat=3"];
 "N12"->"N20"[label = "lat=0"];
 "N16"->"N20"[label = "lat=0"];
-"N21"[label = "\N\nlat=3"];
+"N21"[label = "\N\nlat=4"];
 "N0"->"N21"[label = "lat=0"];
-"N17"->"N21"[label = "lat=0"];
+"N17"->"N21"[label = "lat=1"];
 "N22"[label = "\N\nlat=4"];
 "N1"->"N22"[label = "lat=0"];
 "N18"->"N22"[label = "lat=0"];
@@ -73,7 +73,7 @@ Digraph G {
 "N3"->"N24"[label = "lat=0"];
 "N20"->"N24"[label = "lat=0"];
 "N25"[label = "\N\nlat=3"];
-"N0"->"N25"[label = "lat=0"];
+"N0"->"N25"[label = "lat=1"];
 "N17"->"N25"[label = "lat=0"];
 "N26"[label = "\N\nlat=4"];
 "N1"->"N26"[label = "lat=1"];
@@ -82,6 +82,6 @@ Digraph G {
 "N2"->"N27"[label = "lat=1"];
 "N19"->"N27"[label = "lat=0"];
 "N28"[label = "\N\nlat=4"];
-"N3"->"N28"[label = "lat=1"];
+"N3"->"N28"[label = "lat=0"];
 "N20"->"N28"[label = "lat=0"];
 }
