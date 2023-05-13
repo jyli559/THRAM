@@ -40,7 +40,7 @@ cd cgra-mg
 Or using sbt command:
 ```sh
 cd cgra-mg
-sbt "runMain mg.CGRAMG -td ./test_run_dir"
+sbt "runMain mg.CGRAMG -td ./verilogDir"
 ```
 
 
@@ -65,9 +65,16 @@ Change the benchmark file path as you need.
 The generated result files are in the same directory as the benchmark.
 
 ### CGRA-DSE
+
+Using the script build.sh
+```sh
+cd analyzeDFG
+./build.sh
+```
+
 Using the script dse.py
 ```python
-python3 dse.py
+python3 main.py
 ```
 Automatic DSE flow including benchmark analyzing, modeling and compiling , change the benchmarks as you need. Or implement the process step by step.
 
