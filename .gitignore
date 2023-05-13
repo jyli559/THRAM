@@ -1,1 +1,16 @@
 build/
+
+cgra-dse/*.txt
+
+cgra-mg/*.txt
+
+cgra-dse/*.json
+
+__pycache__/
+
+project/
+
+target/
+
+test_run_dir/
+
