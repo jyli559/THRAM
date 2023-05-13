@@ -25,17 +25,7 @@ Template-based Reconfigurable Architecture Modeling Framework, including:
 
 ##### C++-11 (for CGRA-Compiler)
 
-##### (for CGRA-DSE)
-numpy>=1.16
-pandas>=1.0.1
-torch>=1.9.0
-pymoo==0.5.0
-scikit-learn>=0.22
-gpytorch>=1.4.0
-GPy>=1.9.9
-catboost>=0.24.4
-
-
+##### HEBO (for CGRA-DSE)
 
 ### CGRA-MG
 
